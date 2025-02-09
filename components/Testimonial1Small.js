@@ -31,7 +31,7 @@ const Testimonial1Small = () => {
               Then I found Devseek.ai, and in just three days, I had a fully functional order management app at 1/10th the cost.
               </span>
               {" "}
-              Now, my business runs smoothly, and I’ve saved thousands—if you're tired of delays, Devseek.ai is the smarter way to build software.
+              Now, my business runs smoothly, and I&#39;ve saved thousands—if you&#39;re tired of delays, Devseek.ai is the smarter way to build software.
             
           </h5>
         </div>
