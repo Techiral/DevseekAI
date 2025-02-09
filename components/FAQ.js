@@ -12,15 +12,15 @@ const faqList = [
       <div className="space-y-2 leading-relaxed">
         Devseek AI is a game-changer. Traditional dev teams are slow, costly, and prone to human error. 
         With Devseek, you get instant app development—no devs, no delays, just results. 
-        Don’t waste months or hundreds of thousands of dollars when AI can do it all, faster and cheaper.
+        Don&#39;t waste months or hundreds of thousands of dollars when AI can do it all, faster and cheaper.
       </div>
     ),
   },
   {
-    question: "What happens if I don't use Devseek AI?",
+    question: "What happens if I don&#39;t use Devseek AI?",
     answer: (
       <div className="space-y-2 leading-relaxed">
-        Without Devseek AI, you’re left with long development cycles, high costs, and unreliable code. 
+        Without Devseek AI, you&#39;re left with long development cycles, high costs, and unreliable code. 
         Why gamble with your project when AI can eliminate all these risks and speed up your journey 
         to launch? Skip AI, and you could be stuck in the past.
       </div>
@@ -31,8 +31,8 @@ const faqList = [
     answer: (
       <div className="space-y-2 leading-relaxed">
         For just $149—one time, no recurring fees—you unlock an AI-powered dev team for life. 
-        That’s an insane deal when you compare it to the thousands you'd pay for a dev team or agency. 
-        Get it now, or you’ll regret missing out on this once-in-a-lifetime opportunity.
+        That&#39;s an insane deal when you compare it to the thousands you&#39;d pay for a dev team or agency. 
+        Get it now, or you&#39;ll regret missing out on this once-in-a-lifetime opportunity.
       </div>
     ),
   },
@@ -40,10 +40,10 @@ const faqList = [
     question: "Why is there no refund policy?",
     answer: (
       <div className="space-y-2 leading-relaxed">
-        Devseek AI is built to work, and we’re confident in it. 
-        When you invest, you’re fully committing to the future of your product. 
+        Devseek AI is built to work, and we&#39;re confident in it. 
+        When you invest, you&#39;re fully committing to the future of your product. 
         If you could get a refund, would you be motivated to push forward? 
-        Growth doesn’t come with an undo button.
+        Growth doesn&#39;t come with an undo button.
       </div>
     ),
   },
@@ -53,7 +53,7 @@ const faqList = [
       <div className="space-y-2 leading-relaxed">
         Every moment you wait is another lost opportunity. 
         While you hesitate, your competitors are already building faster and smarter with AI. 
-        Prices are going up—don’t wait until it’s too late to jump on board.
+        Prices are going up—don&#39;t wait until it&#39;s too late to jump on board.
       </div>
     ),
   },
@@ -63,7 +63,7 @@ const faqList = [
       <div className="space-y-2 leading-relaxed">
         Devseek AI builds apps instantly and error-free. 
         If you want to build fast, with no delays or developer mistakes, this is the tool you need. 
-        Don't waste time guessing what your users want—let AI take care of everything.
+        Don&#39;t waste time guessing what your users want—let AI take care of everything.
       </div>
     ),
   },
@@ -71,9 +71,9 @@ const faqList = [
     question: "How do I know if Devseek AI is right for me?",
     answer: (
       <div className="space-y-2 leading-relaxed">
-        If you’re tired of wasting money on slow developers and costly agencies, 
+        If you&#39;re tired of wasting money on slow developers and costly agencies, 
         Devseek AI is perfect for you. If you want to build faster, smarter, and 
-        more efficiently, then don’t wait. It’s the AI-powered future of app development.
+        more efficiently, then don&#39;t wait. It&#39;s the AI-powered future of app development.
       </div>
     ),
   },
@@ -93,7 +93,7 @@ const faqList = [
       <div className="space-y-2 leading-relaxed">
         Devseek AI eliminates the uncertainty and risk of traditional development. 
         With AI, your app is built instantly with no mistakes. 
-        No more wasting months or money on developers who don’t deliver. 
+        No more wasting months or money on developers who don&#39;t deliver. 
         Devseek AI makes sure you only spend time and money on what truly matters.
       </div>
     ),
@@ -102,15 +102,15 @@ const faqList = [
     question: "How can I reach out if I have more questions?",
     answer: (
       <div className="space-y-2 leading-relaxed">
-        We’re always here to help! If you have questions, reach out to us via email at {" "}
+        We&#39;re always here to help! If you have questions, reach out to us via email at {" "}
         <a href="mailto:techiralthefuture@gmail.com" className="text-blue-500">
-           techiralthefuture@gmail.com {" "}
-          </a> 
-         or use the live chat feature on our website. Don’t wait—your app development journey starts now!
+          techiralthefuture@gmail.com
+        </a>{" "}
+        or use the live chat feature on our website. Don&#39;t wait—your app development journey starts now!
       </div>
     ),
   },
-]
+];
 
 
 
