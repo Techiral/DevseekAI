@@ -47,7 +47,7 @@ const Problem = () => {
           Hiring Devs? Nightmare.
         </h2>
         <p className="text-xl font-bold text-base-content/80 mb-16">
-          ⚠️ Without Devseek AI, you're already behind.
+          ⚠️ Without Devseek AI, you&apos;re already behind.
         </p>
 
         <div className="flex flex-col md:flex-row justify-center items-center md:items-start gap-6">
