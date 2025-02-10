@@ -6,7 +6,7 @@ module.exports = {
   priority: 0.7, // Default priority for pages
 
   // ✅ Optimized exclude patterns (uses glob syntax instead of regex-like)
-  exclude: ["/twitter-image*", "/opengraph-image*", "/icon*"],
+  exclude: ["/twitter-image*", "/opengraph-image*", "/icon*", "/apple-icon.png", "/thankyou"],
 
   // ✅ Ensures additionalPaths does not break if siteUrl is somehow undefined
   additionalPaths: async (config) => {
@@ -32,7 +32,7 @@ module.exports = {
     ]);
   },
 
-    robotsTxtOptions: {
+  robotsTxtOptions: {
     additionalSitemaps: [
       "https://devseek-ai.vercel.app/sitemap-0.xml" // Ensure correct sitemap reference
     ],
