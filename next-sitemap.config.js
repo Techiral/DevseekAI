@@ -32,6 +32,12 @@ module.exports = {
     ]);
   },
 
+    robotsTxtOptions: {
+    additionalSitemaps: [
+      "https://devseek-ai.vercel.app/sitemap-0.xml" // Ensure correct sitemap reference
+    ],
+  },
+
   // ✅ Improved transform function to ensure dynamic timestamps & correct priority
   transform: async (config, url) => {
     return {
