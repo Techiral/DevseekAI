@@ -8,7 +8,7 @@ import introducingSupabaseImg from "@/public/blog/introducing-supabase/header.pn
 
 // These slugs are used to generate pages in the /blog/category/[categoryI].js. It's a way to group articles by category.
 const categorySlugs = {
-  futureofai: "futureofai",
+  ai_trends: "ai_trends",
   tutorial: "tutorial",
 };
 
@@ -161,10 +161,10 @@ export const articles = [
       "Is AI coming for your developer job? Explore how AI tools like GitHub Copilot and ChatGPT are transforming coding, automation, and software development. Discover the limitations of AI and how developers can future-proof their skills.",
     // An array of categories of the article. It's used to generate the category badges, the category filter, and more.
     categories: [
-      categories.find((category) => category.slug === categorySlugs.feature),
+      categories.find((category) => category.slug === categorySlugs.ai_trends),
     ],
     // The author of the article. It's used to generate a link to the author's bio page.
-    author: authors.find((author) => author.slug === authorSlugs.marc),
+    author: authors.find((author) => author.slug === authorSlugs.techiral),
     // The date of the article. It's used to generate the meta date.
     publishedAt: "2025-02-11",
     image: {
