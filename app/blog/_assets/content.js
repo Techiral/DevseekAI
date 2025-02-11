@@ -171,17 +171,17 @@ export const articles = [
       // The image to display in <CardArticle /> components.
       src: introducingSupabaseImg,
       // The relative URL of the same image to use in the Open Graph meta tags & the Schema Markup JSON-LD.
-      urlRelative: "/blog/introducing-supabase/header.jpg",
-      alt: "Supabase and 10xShip logo combined",
+      urlRelative: "https://ideogram.ai/assets/image/lossless/response/KYJxmYLwRRObQcf8Ayn9Ig",
+      alt: "I don't think AI will completely replace mid-level engineers, at least not by 2025. Even OpenAI is still hiring web developers with salaries exceeding $300k a year.",
     },
     // The actual content of the article that will be shown under the <h1> title in the article page.
     content: (
       <>
       <Image
-        src="/ai-vs-developers.jpg"
+        src="https://ideogram.ai/assets/image/lossless/response/KYJxmYLwRRObQcf8Ayn9Ig"
         alt="AI vs Developers - Will AI Replace Developers by 2025?"
-        width={700}
-        height={500}
+        width={786}
+        height={440}
         priority={true}
         className="rounded-box"
         placeholder="blur"
