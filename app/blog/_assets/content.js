@@ -8,7 +8,7 @@ import introducingSupabaseImg from "@/public/blog/introducing-supabase/header.pn
 
 // These slugs are used to generate pages in the /blog/category/[categoryI].js. It's a way to group articles by category.
 const categorySlugs = {
-  feature: "feature",
+  futureofai: "futureofai",
   tutorial: "tutorial",
 };
 
@@ -16,16 +16,15 @@ const categorySlugs = {
 export const categories = [
   {
     // The slug to use in the URL, from the categorySlugs object above.
-    slug: categorySlugs.feature,
+    slug: categorySlugs.ai_trends,
     // The title to display the category title (h1), the category badge, the category filter, and more. Less than 60 characters.
-    title: "New Features",
+    title: "AI Trends and Updates",
     // A short version of the title above, display in small components like badges. 1 or 2 words
-    titleShort: "Features",
+    titleShort: "AI Trends",
     // The description of the category to display in the category page. Up to 160 characters.
-    description:
-      "Here are the latest features we've added to 10xShip. I'm constantly improving our product to help you ship faster.",
+    description: "Stay updated with the latest trends, news, and discussions about artificial intelligence and its impact on various industries.",
     // A short version of the description above, only displayed in the <Header /> on mobile. Up to 60 characters.
-    descriptionShort: "Latest features added to 10xShip.",
+    descriptionShort: "Latest AI trends and updates."
   },
   {
     slug: categorySlugs.tutorial,
@@ -95,39 +94,39 @@ const socialIcons = {
 
 // These slugs are used to generate pages in the /blog/author/[authorId].js. It's a way to show all articles from an author.
 const authorSlugs = {
-  marc: "marc",
+  techiral: "techiral",
 };
 
 // All the blog authors data display in the /blog/author/[authorId].js pages.
 export const authors = [
   {
     // The slug to use in the URL, from the authorSlugs object above.
-    slug: authorSlugs.marc,
+    slug: authorSlugs.techiral,
     // The name to display in the author's bio. Up to 60 characters.
-    name: "Marc Lou",
+    name: "Techiral",
     // The job to display in the author's bio. Up to 60 characters.
-    job: "Maker of ByeDispute",
+    job: "Maker of Devseek AI",
     // The description of the author to display in the author's bio. Up to 160 characters.
     description:
-      "Marc is a developer and an entrepreneur. He's built 20 startups in the last 3 years. 6 were profitable and 3 were acquired. He's currently building ByeDispute, the #1 Stripe Chargebacks Protection tool.",
+      "Techiral is built by Lakshya Gupta, who is a developer and an entrepreneur. He's built 20 startups in the last 3 years. 6 were profitable and 3 were acquired. He's currently building 10xShip, the #1 NextJS foundation packed with essentials to create your SaaS, AI solution, or any web app and quickly earn your first $ online.",
     // The avatar of the author to display in the author's bio and avatar badge. It's better to use a local image, but you can also use an external image (https://...)
-    avatar: marcImg,
+    avatar: "https://avatars.githubusercontent.com/u/115097129?v=4",
     // A list of social links to display in the author's bio.
     socials: [
       {
         name: socialIcons.twitter.name,
         icon: socialIcons.twitter.svg,
-        url: "https://twitter.com/marc_louvion",
+        url: "https://www.twitter.com/techiral_/",
       },
       {
         name: socialIcons.linkedin.name,
         icon: socialIcons.linkedin.svg,
-        url: "https://www.linkedin.com/in/marclouvion/",
+        url: "https://www.linkedin.com/in/techiral",
       },
       {
         name: socialIcons.github.name,
         icon: socialIcons.github.svg,
-        url: "https://github.com/Marc-Lou-Org/ship-fast",
+        url: "https://github.com/Techiral",
       },
     ],
   },
