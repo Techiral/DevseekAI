@@ -1,6 +1,6 @@
 import Image from "next/image";
-import marcImg from "@/app/blog/_assets/images/authors/marc.png";
-import introducingSupabaseImg from "@/public/blog/introducing-supabase/header.png";
+import marcImg from "@/app/blog/_assets/images/authors/letter_t_logo._simple_logo.-removebg-preview.png";
+import introducingSupabaseImg from "@/app/blog/_assets/images/authors/KYJxmYLwRRObQcf8Ayn9Ig.webp";
 
 // ==================================================================================================================================================================
 // BLOG CATEGORIES 🏷️
@@ -110,7 +110,7 @@ export const authors = [
     description:
       "Techiral is built by Lakshya Gupta, who is a developer and an entrepreneur. He's built 20 startups in the last 3 years. 6 were profitable and 3 were acquired. He's currently building 10xShip, the #1 NextJS foundation packed with essentials to create your SaaS, AI solution, or any web app and quickly earn your first $ online.",
     // The avatar of the author to display in the author's bio and avatar badge. It's better to use a local image, but you can also use an external image (https://...)
-    avatar: "https://avatars.githubusercontent.com/u/115097129?v=4",
+    avatar: marcImg,
     // A list of social links to display in the author's bio.
     socials: [
       {
@@ -171,14 +171,14 @@ export const articles = [
       // The image to display in <CardArticle /> components.
       src: introducingSupabaseImg,
       // The relative URL of the same image to use in the Open Graph meta tags & the Schema Markup JSON-LD.
-      urlRelative: "https://ideogram.ai/assets/image/lossless/response/KYJxmYLwRRObQcf8Ayn9Ig",
+      urlRelative: {introducingSupabaseImg},
       alt: "I don't think AI will completely replace mid-level engineers, at least not by 2025. Even OpenAI is still hiring web developers with salaries exceeding $300k a year",
     },
     // The actual content of the article that will be shown under the <h1> title in the article page.
     content: (
       <>
       <Image
-        src="https://ideogram.ai/assets/image/lossless/response/KYJxmYLwRRObQcf8Ayn9Ig"
+        src={introducingSupabaseImg}
         alt="AI vs Developers - Will AI Replace Developers by 2025?"
         width={786}
         height={440}
