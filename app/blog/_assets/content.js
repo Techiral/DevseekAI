@@ -190,14 +190,14 @@ export const articles = [
       <section>
         <h1 className={styles.h2}>Will AI Replace Developers by 2025?</h1>
         <p className={styles.p}>
-          The rise of AI in software development has sparked a heated debate: Will AI completely replace human developers by 2025? With advancements in machine learning, automation, and AI-driven coding tools, many believe that traditional programming jobs may soon become obsolete. But is that really the case? Let's dive deep into this discussion.
+          The rise of AI in software development has sparked a heated debate: Will AI completely replace human developers by 2025? With advancements in machine learning, automation, and AI-driven coding tools, many believe that traditional programming jobs may soon become obsolete. But is that really the case? Let&apos;s dive deep into this discussion.
         </p>
       </section>
 
       <section>
         <h2 className={styles.h3}>The Evolution of AI in Software Development</h2>
         <p className={styles.p}>
-          AI in software development isn't new. Tools like GitHub Copilot, OpenAI Codex, and automated testing frameworks have already changed how developers work. AI can now generate code snippets, detect bugs, and even optimize performance. But is this enough to replace human expertise?
+          AI in software development isn&apos;t new. Tools like GitHub Copilot, OpenAI Codex, and automated testing frameworks have already changed how developers work. AI can now generate code snippets, detect bugs, and even optimize performance. But is this enough to replace human expertise?
         </p>
       </section>
 
@@ -212,7 +212,7 @@ export const articles = [
       </section>
 
       <section>
-        <h2 className={styles.h3}>Why AI Won’t Fully Replace Developers (Yet)</h2>
+        <h2 className={styles.h3}>Why AI Won&apos;t Fully Replace Developers (Yet)</h2>
         <p className={styles.p}>
           While AI is powerful, software development is more than just writing code. Developers handle:
         </p>
