@@ -7,44 +7,49 @@ module.exports = {
   priority: 0.7, // Default priority for pages
 
   exclude: [
-    "/twitter-image*",
-    "/opengraph-image*",
-    "/icon*",
-    "/apple-icon.png",
-    "/thankyou",
+    "/twitter-image*", 
+    "/opengraph-image*", 
+    "/icon*", 
+    "/apple-icon.png", 
+    "/thankyou"
   ],
 
-  additionalPaths: async (config) => [
-    {
-      loc: `${config.siteUrl}/signin`,
-      lastmod: new Date().toISOString(),
-      changefreq: "monthly",
-      priority: 0.9,
-    },
-    {
-      loc: `${config.siteUrl}/tos`,
-      lastmod: new Date().toISOString(),
-      changefreq: "yearly",
-      priority: 0.3,
-    },
-    {
-      loc: `${config.siteUrl}/privacy-policy`,
-      lastmod: new Date().toISOString(),
-      changefreq: "yearly",
-      priority: 0.3,
-    },
-  ],
+  additionalPaths: async (config) => {
+    return Promise.resolve([
+      {
+        loc: `${config.siteUrl}/signin`,
+        lastmod: new Date().toISOString(),
+        changefreq: "monthly",
+        priority: 0.9,
+      },
+      {
+        loc: `${config.siteUrl}/tos`,
+        lastmod: new Date().toISOString(),
+        changefreq: "yearly",
+        priority: 0.3,
+      },
+      {
+        loc: `${config.siteUrl}/privacy-policy`,
+        lastmod: new Date().toISOString(),
+        changefreq: "yearly",
+        priority: 0.3,
+      },
+    ]);
+  },
 
   robotsTxtOptions: {
     additionalSitemaps: [
-      "https://devseek-ai.vercel.app/sitemap-0.xml",
+      "https://devseek-ai.vercel.app/sitemap-0.xml"
     ],
   },
 
+  // ✅ Ensures new blog posts are indexed automatically
   transform: async (config, url) => {
+    console.log("Sitemap URL:", url); // Debugging log
+
     return {
-      loc: url.startsWith("http") ? url : `${config.siteUrl}${url}`,
-      lastmod: new Date().toISOString(),
+      loc: url.startsWith("http") ? url : `${config.siteUrl}${url}`, 
+      lastmod: new Date().toISOString(), 
       changefreq: url.includes("/blog/") ? "weekly" : "daily",
       priority: url === config.siteUrl ? 1.0 : url.includes("/blog/") ? 0.8 : 0.7,
     };
