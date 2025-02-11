@@ -178,107 +178,107 @@ export const articles = [
     // The actual content of the article that will be shown under the <h1> title in the article page.
     content: (
       <>
-        <Image
-          src="/ai-vs-developers.jpg"
-          alt="AI vs Developers - Will AI Replace Developers by 2025?"
-          width={700}
-          height={500}
-          priority={true}
-          className="rounded-box"
-          placeholder="blur"
-        />
-        <section>
-          <h1 className={styles.h2}>Will AI Replace Developers by 2025?</h1>
-          <p className={styles.p}>
-            The rise of AI in software development has sparked a heated debate: Will AI completely replace human developers by 2025? With advancements in machine learning, automation, and AI-driven coding tools, many believe that traditional programming jobs may soon become obsolete. But is that really the case? Let's dive deep into this discussion.
-          </p>
-        </section>
+      <Image
+        src="/ai-vs-developers.jpg"
+        alt="AI vs Developers - Will AI Replace Developers by 2025?"
+        width={700}
+        height={500}
+        priority={true}
+        className="rounded-box"
+        placeholder="blur"
+      />
+      <section>
+        <h1 className={styles.h2}>Will AI Replace Developers by 2025?</h1>
+        <p className={styles.p}>
+          The rise of AI in software development has sparked a heated debate: Will AI completely replace human developers by 2025? With advancements in machine learning, automation, and AI-driven coding tools, many believe that traditional programming jobs may soon become obsolete. But is that really the case? Let's dive deep into this discussion.
+        </p>
+      </section>
 
-        <section>
-          <h2 className={styles.h3}>The Evolution of AI in Software Development</h2>
-          <p className={styles.p}>
-            AI in software development isn't new. Tools like GitHub Copilot, OpenAI Codex, and automated testing frameworks have already changed how developers work. AI can now generate code snippets, detect bugs, and even optimize performance. But is this enough to replace human expertise?
-          </p>
-        </section>
+      <section>
+        <h2 className={styles.h3}>The Evolution of AI in Software Development</h2>
+        <p className={styles.p}>
+          AI in software development isn't new. Tools like GitHub Copilot, OpenAI Codex, and automated testing frameworks have already changed how developers work. AI can now generate code snippets, detect bugs, and even optimize performance. But is this enough to replace human expertise?
+        </p>
+      </section>
 
-        <section>
-          <h2 className={styles.h3}>Current AI Capabilities in Development</h2>
-          <ul className={styles.ul}>
-            <li>Automated Code Generation (e.g., Copilot, CodeWhisperer)</li>
-            <li>AI-Powered Debugging and Testing</li>
-            <li>Low-Code & No-Code Platforms</li>
-            <li>AI-Driven DevOps Automation</li>
-          </ul>
-        </section>
+      <section>
+        <h2 className={styles.h3}>Current AI Capabilities in Development</h2>
+        <ul className={styles.ul}>
+          <li>Automated Code Generation (e.g., Copilot, CodeWhisperer)</li>
+          <li>AI-Powered Debugging and Testing</li>
+          <li>Low-Code & No-Code Platforms</li>
+          <li>AI-Driven DevOps Automation</li>
+        </ul>
+      </section>
 
-        <section>
-          <h2 className={styles.h3}>Why AI Won’t Fully Replace Developers (Yet)</h2>
-          <p className={styles.p}>
-            While AI is powerful, software development is more than just writing code. Developers handle:
-          </p>
-          <ul className={styles.ul}>
-            <li>Complex problem-solving and critical thinking</li>
-            <li>System architecture and scalable design</li>
-            <li>Understanding client needs and business logic</li>
-            <li>Debugging unpredictable errors</li>
-          </ul>
-          <p className={styles.p}>
-            AI lacks human intuition, creativity, and adaptability—essential qualities in software development.
-          </p>
-        </section>
+      <section>
+        <h2 className={styles.h3}>Why AI Won’t Fully Replace Developers (Yet)</h2>
+        <p className={styles.p}>
+          While AI is powerful, software development is more than just writing code. Developers handle:
+        </p>
+        <ul className={styles.ul}>
+          <li>Complex problem-solving and critical thinking</li>
+          <li>System architecture and scalable design</li>
+          <li>Understanding client needs and business logic</li>
+          <li>Debugging unpredictable errors</li>
+        </ul>
+        <p className={styles.p}>
+          AI lacks human intuition, creativity, and adaptability—essential qualities in software development.
+        </p>
+      </section>
 
-        <section>
-          <h2 className={styles.h3}>Will AI Take Over Junior Developer Roles?</h2>
-          <p className={styles.p}>
-            Entry-level jobs might be at risk. AI can handle repetitive coding tasks, reducing the need for junior developers. However, it also creates new opportunities in AI-assisted development, requiring human oversight.
-          </p>
-        </section>
+      <section>
+        <h2 className={styles.h3}>Will AI Take Over Junior Developer Roles?</h2>
+        <p className={styles.p}>
+          Entry-level jobs might be at risk. AI can handle repetitive coding tasks, reducing the need for junior developers. However, it also creates new opportunities in AI-assisted development, requiring human oversight.
+        </p>
+      </section>
 
-        <section>
-          <h2 className={styles.h3}>The Future: Collaboration Between AI and Developers</h2>
-          <p className={styles.p}>
-            The most likely scenario? AI will enhance developer productivity rather than replace them. AI tools will automate mundane tasks, allowing developers to focus on higher-level problem-solving and innovation.
-          </p>
-        </section>
+      <section>
+        <h2 className={styles.h3}>The Future: Collaboration Between AI and Developers</h2>
+        <p className={styles.p}>
+          The most likely scenario? AI will enhance developer productivity rather than replace them. AI tools will automate mundane tasks, allowing developers to focus on higher-level problem-solving and innovation.
+        </p>
+      </section>
 
-        <section>
-          <h2 className={styles.h3}>Conclusion</h2>
-          <p className={styles.p}>
-            While AI is revolutionizing software development, the complete replacement of developers by 2025 is unlikely. Instead, AI will serve as a powerful assistant, making coding faster, more efficient, and accessible.
-          </p>
-        </section>
+      <section>
+        <h2 className={styles.h3}>Conclusion</h2>
+        <p className={styles.p}>
+          While AI is revolutionizing software development, the complete replacement of developers by 2025 is unlikely. Instead, AI will serve as a powerful assistant, making coding faster, more efficient, and accessible.
+        </p>
+      </section>
 
-        <section>
-          <h2 className={styles.h3}>FAQs</h2>
-          <ul className={styles.ul}>
-            <li><strong>Will AI replace all developers?</strong> No, but it may reduce the need for some junior-level coding roles.</li>
-            <li><strong>Is AI good for software development?</strong> Yes! It speeds up coding, debugging, and deployment processes.</li>
-            <li><strong>Should developers learn AI?</strong> Absolutely. Understanding AI will give developers a competitive edge in the job market.</li>
-            <li><strong>What AI tools should developers use?</strong> GitHub Copilot, ChatGPT, DeepCode, and AI-powered DevOps tools.</li>
-            <li><strong>How can developers stay relevant?</strong> Focus on high-level problem-solving, architecture, and AI integration skills.</li>
-          </ul>
-        </section>
+      <section>
+        <h2 className={styles.h3}>FAQs</h2>
+        <ul className={styles.ul}>
+          <li><strong>Will AI replace all developers?</strong> No, but it may reduce the need for some junior-level coding roles.</li>
+          <li><strong>Is AI good for software development?</strong> Yes! It speeds up coding, debugging, and deployment processes.</li>
+          <li><strong>Should developers learn AI?</strong> Absolutely. Understanding AI will give developers a competitive edge in the job market.</li>
+          <li><strong>What AI tools should developers use?</strong> GitHub Copilot, ChatGPT, DeepCode, and AI-powered DevOps tools.</li>
+          <li><strong>How can developers stay relevant?</strong> Focus on high-level problem-solving, architecture, and AI integration skills.</li>
+        </ul>
+      </section>
 
-        <section>
-          <h2 className={styles.h3}>Devseek AI: Build Apps, No Developers Needed</h2>
-          <p className={styles.p}>
-            <strong>Devseek.ai</strong> is a revolutionary AI-powered SaaS platform that automates the entire software development lifecycle—from ideation to deployment—without human developers.
-          </p>
-          <ul className={styles.ul}>
-            <li>AI generates code, tests applications, and fixes bugs automatically.</li>
-            <li>Launch-ready applications with zero human intervention.</li>
-            <li>Faster, cost-effective, and error-free software development.</li>
-          </ul>
-          <p className={styles.p}>
-            Could this mean the end of human developers? Try Devseek.ai and decide for yourself!
-          </p>
-          <p className={styles.p}>
-            <a href="https://devseek-ai.vercel.app/" target="_blank" className={styles.link}>
-              🔗 Visit Devseek.ai
-            </a>
-          </p>
-        </section>
-      </>
+      <section>
+        <h2 className={styles.h3}>Devseek AI: Build Apps, No Developers Needed</h2>
+        <p className={styles.p}>
+          <strong>Devseek.ai</strong> is a revolutionary AI-powered SaaS platform that automates the entire software development lifecycle—from ideation to deployment—without human developers.
+        </p>
+        <ul className={styles.ul}>
+          <li>AI generates code, tests applications, and fixes bugs automatically.</li>
+          <li>Launch-ready applications with zero human intervention.</li>
+          <li>Faster, cost-effective, and error-free software development.</li>
+        </ul>
+        <p className={styles.p}>
+          Could this mean the end of human developers? Try Devseek.ai and decide for yourself!
+        </p>
+        <p className={styles.p}>
+          <a href="https://devseek-ai.vercel.app/" target="_blank" className={styles.link}>
+            🔗 Visit Devseek.ai
+          </a>
+        </p>
+      </section>
+    </>
     ),
   },
 ];
