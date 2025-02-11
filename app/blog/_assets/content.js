@@ -172,7 +172,7 @@ export const articles = [
       src: introducingSupabaseImg,
       // The relative URL of the same image to use in the Open Graph meta tags & the Schema Markup JSON-LD.
       urlRelative: "https://ideogram.ai/assets/image/lossless/response/KYJxmYLwRRObQcf8Ayn9Ig",
-      alt: "I don't think AI will completely replace mid-level engineers, at least not by 2025. Even OpenAI is still hiring web developers with salaries exceeding $300k a year.",
+      alt: "I don't think AI will completely replace mid-level engineers, at least not by 2025. Even OpenAI is still hiring web developers with salaries exceeding $300k a year",
     },
     // The actual content of the article that will be shown under the <h1> title in the article page.
     content: (
