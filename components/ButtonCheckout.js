@@ -7,7 +7,7 @@ const ButtonCheckout = () => {
   return (
     <button
       className="btn btn-primary btn-block group"
-      onClick={() => window.location.href = 'https://devseek-ai.vercel.app/signin'}
+      onClick={() => window.location.href = 'https://www.paypal.com/ncp/payment/CTSS5RZVZVQHY'}
     >
       <svg
         className="w-5 h-5 fill-primary-content group-hover:scale-110 group-hover:-rotate-3 transition-transform duration-200"
