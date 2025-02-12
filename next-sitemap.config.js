@@ -2,9 +2,9 @@
 module.exports = {
   siteUrl: process.env.SITE_URL?.replace(/\/$/, "") || "https://devseek-ai.vercel.app",
   generateRobotsTxt: true,
-  sitemapSize: 5000, // Splits large sitemaps automatically
-  changefreq: "daily", // Default update frequency
-  priority: 0.7, // Default priority for pages
+  sitemapSize: 5000,
+  changefreq: "daily",
+  priority: 0.7,
 
   exclude: [
     "/twitter-image*", 
@@ -34,6 +34,14 @@ module.exports = {
         changefreq: "yearly",
         priority: 0.3,
       },
+
+      // ✅ Manually added blog URLs with highest priority
+      {
+        loc: `${config.siteUrl}/blog/will-ai-replace-developers-2025`,
+        lastmod: new Date().toISOString(),
+        changefreq: "hourly", // 🔥 Tells Google this updates frequently
+        priority: 1.0, // 🔥 Highest priority for fastest indexing
+      },
     ]);
   },
 
@@ -43,15 +51,14 @@ module.exports = {
     ],
   },
 
-  // ✅ Ensures new blog posts are indexed automatically
   transform: async (config, url) => {
-    console.log("Sitemap URL:", url); // Debugging log
+    console.log("Sitemap URL:", url);
 
     return {
-      loc: url.startsWith("http") ? url : `${config.siteUrl}${url}`, 
-      lastmod: new Date().toISOString(), 
-      changefreq: url.includes("/blog/") ? "weekly" : "daily",
-      priority: url === config.siteUrl ? 1.0 : url.includes("/blog/") ? 0.8 : 0.7,
+      loc: url.startsWith("http") ? url : `${config.siteUrl}${url}`,
+      lastmod: new Date().toISOString(),
+      changefreq: url.includes("/blog/") ? "hourly" : "daily", // 🔥 Hourly for blogs
+      priority: url.includes("/blog/") ? 1.0 : 0.7,
     };
   },
 };
